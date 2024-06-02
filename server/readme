@@ -1,0 +1,10 @@
+python -m grpc_tools.protoc -I../protos --python_out=./pb --grpc_python_out=./pb ../protos/zoo.proto 
+
+
+c#
+protoc --csharp_out=pb/ --proto_path=protos/ zoo.proto
+
+protoc --csharp_out=<pb> --proto_path=<proto_directory> <your_proto_file.proto>
+
+
+

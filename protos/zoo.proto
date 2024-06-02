@@ -1,0 +1,78 @@
+syntax = "proto3";
+option csharp_namespace = "GrpcClient";
+
+package zoo;
+// Define a service for a zoo RPC
+service ZooService {
+    rpc create (CreateZooRequest) returns (CreateZooResponse) {}
+    rpc update (UpdateZooRequest) returns (UpdateZooResponse) {}
+    rpc delete (DeleteZooRequest) returns (DeleteZooResponse) {}
+    rpc get     (GetZooRequest) returns (GetZooResponse) {}
+    rpc search (ReadAllZooRequest) returns (ReadAllZooResponse) {}
+}
+//Define a message for an zoo
+message Zoo{
+    string id = 1;
+    string Name = 2;
+    string Location = 3;
+    string Address = 4;
+    string Opening = 5;
+    string Closing = 6;
+    string Contact = 7;
+}
+
+//Define a message for zoo request
+message CreateZooRequest{
+    string Name = 1;
+    string Location = 2;
+    string Address = 3;
+    string Opening = 4;
+    string Closing = 5;
+    string Contact = 6;
+}
+
+//Define a message for zoo response
+message CreateZooResponse{
+    Zoo zoo = 1;
+}
+
+message UpdateZooRequest{
+    string id = 1;
+    string Name = 2;
+    string Location = 3;
+    string Address = 4;
+    string Opening = 5;
+    string Closing = 6;
+    string Contact = 7;
+}
+
+message UpdateZooResponse{
+    Zoo zoo = 1;
+}
+
+  
+  message ReadAllZooRequest {
+    uint32 offset = 1;
+    uint32 limit = 2;
+}
+
+message ReadAllZooResponse{
+    repeated Zoo records = 1;
+}
+
+
+message DeleteZooRequest{
+    string id = 1;
+}
+  
+  message DeleteZooResponse {
+    string message = 1; 
+}
+  
+message GetZooRequest {
+    string id = 1;
+}
+
+message GetZooResponse{
+    Zoo zoo = 1;
+}

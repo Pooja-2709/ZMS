@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+package student;
+
+service Student {
+  rpc create (CreateRequest) returns (CreateReply){}
+  rpc read (ReadRequest) returns (ReadReply){}
+  rpc readall (ReadAllRequest) returns (ReadAllReply){}
+  rpc update(UpdateRequest) returns(UpdateReply){}
+  rpc delete(DeleteRequest) returns(DeleteReply){}
+}
+
+message CreateRequest{
+  string name = 1;
+  string lastname =2;
+}
+  
+message ReadAllReply{
+  repeated ReadReply replies = 1;
+}
+
+message ReadAllRequest {
+  uint32 offset = 1;
+  uint32 limit = 2;
+}
+
+
+message CreateReply{
+  uint32 id  = 1;
+  string name = 2;
+  string lastname = 3;
+}
+
+message ReadRequest{
+  uint32 id = 1;
+}
+
+message ReadReply{
+  uint32 id  = 1;
+  string name = 2;
+  string lastname = 3;
+}
+
+
+message UpdateRequest{
+  uint32 id = 1;
+  string name = 2;
+  string lastname = 3;
+}
+
+
+message UpdateReply{
+  string message = 1;
+}
+
+message DeleteRequest{
+  uint32 id = 1;
+}
+
+message DeleteReply {
+  string message = 1; 
+}
+

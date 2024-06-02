@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Student.cs \
+obj\Debug\net8.0/StudentGrpc.cs: ../protos/student.proto

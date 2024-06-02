@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Zoo.cs \
+obj\Debug\net8.0/ZooGrpc.cs: ../protos/zoo.proto

@@ -1,0 +1,71 @@
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\grpc_client.exe
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\grpc_client.deps.json
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\grpc_client.runtimeconfig.json
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\grpc_client.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\grpc_client.pdb
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Google.Protobuf.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Grpc.Net.Common.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.csproj.AssemblyReference.cache
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.GeneratedMSBuildEditorConfig.editorconfig
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.AssemblyInfoInputs.cache
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.AssemblyInfo.cs
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.csproj.CoreCompileInputs.cache
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.MvcApplicationPartsAssemblyInfo.cache
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets.build.json
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets.development.json
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets\msbuild.grpc_client.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets\msbuild.build.grpc_client.props
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.grpc_client.props
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.grpc_client.props
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\staticwebassets.pack.json
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\scopedcss\bundle\grpc_client.styles.css
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_cli.F70A6173.Up2Date
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\refint\grpc_client.dll
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.pdb
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\grpc_client.genruntimeconfig.cache
+D:\GrpcClientProject_crud Operation\GrpcClientProject_crud Operation\client\obj\Debug\net8.0\ref\grpc_client.dll
+C:\zms\client\bin\Debug\net8.0\grpc_client.exe
+C:\zms\client\bin\Debug\net8.0\grpc_client.deps.json
+C:\zms\client\bin\Debug\net8.0\grpc_client.runtimeconfig.json
+C:\zms\client\bin\Debug\net8.0\grpc_client.dll
+C:\zms\client\bin\Debug\net8.0\grpc_client.pdb
+C:\zms\client\bin\Debug\net8.0\Google.Protobuf.dll
+C:\zms\client\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\zms\client\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\zms\client\bin\Debug\net8.0\Grpc.Net.Common.dll
+C:\zms\client\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\zms\client\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\zms\client\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\zms\client\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\zms\client\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\zms\client\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\zms\client\obj\Debug\net8.0\grpc_client.csproj.AssemblyReference.cache
+C:\zms\client\obj\Debug\net8.0\grpc_client.GeneratedMSBuildEditorConfig.editorconfig
+C:\zms\client\obj\Debug\net8.0\grpc_client.AssemblyInfoInputs.cache
+C:\zms\client\obj\Debug\net8.0\grpc_client.AssemblyInfo.cs
+C:\zms\client\obj\Debug\net8.0\grpc_client.csproj.CoreCompileInputs.cache
+C:\zms\client\obj\Debug\net8.0\grpc_client.MvcApplicationPartsAssemblyInfo.cache
+C:\zms\client\obj\Debug\net8.0\grpc_client.sourcelink.json
+C:\zms\client\obj\Debug\net8.0\staticwebassets.build.json
+C:\zms\client\obj\Debug\net8.0\staticwebassets.development.json
+C:\zms\client\obj\Debug\net8.0\staticwebassets\msbuild.grpc_client.Microsoft.AspNetCore.StaticWebAssets.props
+C:\zms\client\obj\Debug\net8.0\staticwebassets\msbuild.build.grpc_client.props
+C:\zms\client\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.grpc_client.props
+C:\zms\client\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.grpc_client.props
+C:\zms\client\obj\Debug\net8.0\staticwebassets.pack.json
+C:\zms\client\obj\Debug\net8.0\scopedcss\bundle\grpc_client.styles.css
+C:\zms\client\obj\Debug\net8.0\grpc_cli.F70A6173.Up2Date
+C:\zms\client\obj\Debug\net8.0\grpc_client.dll
+C:\zms\client\obj\Debug\net8.0\refint\grpc_client.dll
+C:\zms\client\obj\Debug\net8.0\grpc_client.pdb
+C:\zms\client\obj\Debug\net8.0\grpc_client.genruntimeconfig.cache
+C:\zms\client\obj\Debug\net8.0\ref\grpc_client.dll
