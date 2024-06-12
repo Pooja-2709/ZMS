@@ -1,0 +1,60 @@
+syntax = "proto3";
+option csharp_namespace = "GrpcClient";
+
+package animal;
+
+service AnimalService{
+    rpc create (CreateAnimalRequest) returns (CreateAnimalResponse) {}
+    rpc update (UpdateAnimalRequest) returns (UpdateAnimalResponse) {}
+    rpc delete (DeleteAnimalRequest) returns (DeleteAnimalResponse) {}
+    // rpc get    (GetAnimalRequest) return (GetAnimalResponse) {}
+    // rpc search (ReadAllAnimalRequest) returns (ReadAllAnimalResponse) {}
+
+}
+
+message Animal{
+    string id = 1;
+    string name = 2;
+    string gender = 3;
+    uint32 cageid = 4;
+    string zooid = 5;
+    string animalkindid = 6;
+    string feedtime = 7;
+
+}
+
+message CreateAnimalRequest{
+    string name = 1;
+    string gender = 2;
+    uint32 cageid = 3;
+    string zooid = 4;
+    string animalkindid = 5;
+    string feedtime = 6;
+
+
+}
+message CreateAnimalResponse{
+    Animal animal = 1;
+}
+
+message UpdateAnimalRequest{
+    string id = 1;
+    string name = 2;
+    string gender = 3;
+    uint32 cageid = 4;
+    string zooid = 5;
+    string animalkindid = 6;
+    string feedtime = 7;
+}
+
+message UpdateAnimalResponse{
+    Animal animal = 1;
+}
+
+message DeleteAnimalRequest{
+    string id = 1;
+}
+
+message DeleteAnimalResponse{
+    string message = 1;
+}

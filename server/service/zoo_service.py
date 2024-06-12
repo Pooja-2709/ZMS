@@ -9,7 +9,6 @@ class Zoo_Service:
     def create_zoo(self,values):
         try:
             with self.session() as session, session.begin():
-            # Instantiate the Zoo model with correct attributes
                 new_zoo = Zoo(
                     name=values['Name'],
                     location=values['Location'],

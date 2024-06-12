@@ -2,6 +2,8 @@ from database.database import engine
 from models.zoo import ZooBase
 from models.student import StudentBase
 from models.animalkind import AnimalkindBase
+from models.animal import AnimalBase
+
 
 from models.student import StudentBase
 from concurrent import futures
@@ -9,21 +11,25 @@ import grpc
 from sqlalchemy.orm import sessionmaker, scoped_session
 from pb import zoo_pb2_grpc
 from pb import student_pb2_grpc
+from pb import animal_pb2_grpc
 from controller.zoo_controller import Zoo_Controller
 from controller.student_controller import Student_Controller
+from controller.animal_controller import Animal_Controller
 
 def serve():
     try:
         port = '50051'
         grpc_server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
         session = create_session()
-        print("2")
         student_pb2_grpc.add_StudentServicer_to_server(
         Student_Controller(session), grpc_server)
         
         zoo_pb2_grpc.add_ZooServiceServicer_to_server(
             Zoo_Controller(session), grpc_server)
         
+        animal_pb2_grpc.add_AnimalServiceServicer_to_server(
+            Animal_Controller(session), grpc_server
+        )
         grpc_server.add_insecure_port('[::]:' + port)
         grpc_server.start()
         print("Server started, listening on " + port)
@@ -41,7 +47,7 @@ def create_session():
         StudentBase.metadata.create_all(bind=engine)
         ZooBase.metadata.create_all(bind=engine)
         AnimalkindBase.metadata.create_all(bind=engine)
-        print("1")
+        AnimalBase.metadata.create_all(bind=engine)
         return session_maker
     except Exception as e:
         raise e
