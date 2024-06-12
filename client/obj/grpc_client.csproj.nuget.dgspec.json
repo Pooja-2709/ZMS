@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\zms\\client\\grpc_client.csproj": {}
+    "C:\\Zoo-Management\\client\\grpc_client.csproj": {}
   },
   "projects": {
-    "C:\\zms\\client\\grpc_client.csproj": {
+    "C:\\Zoo-Management\\client\\grpc_client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\zms\\client\\grpc_client.csproj",
+        "projectUniqueName": "C:\\Zoo-Management\\client\\grpc_client.csproj",
         "projectName": "grpc_client",
-        "projectPath": "C:\\zms\\client\\grpc_client.csproj",
+        "projectPath": "C:\\Zoo-Management\\client\\grpc_client.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\zms\\client\\obj\\",
+        "outputPath": "C:\\Zoo-Management\\client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

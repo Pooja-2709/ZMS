@@ -1,0 +1,2 @@
+obj\Debug\net8.0/Animal.cs \
+obj\Debug\net8.0/AnimalGrpc.cs: ../protos/animal.proto

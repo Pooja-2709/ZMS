@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1JHVuHTEAE/NV0Pzyyx+P5U1/EVWl6JHb3j097QhI4QhHCOiAg8+vtyH12gUgNTZDstf1ZsGvJBCqT9J6fqpQ==",
+  "dgSpecHash": "EPuhGqoybAHbNhN6JFQUKPg417MCGmmSSbL2verFw58NcrEEDsAMPoiu0G7QKC9nPBxyD8G32OwxEy6YYPRgiw==",
   "success": true,
-  "projectFilePath": "C:\\zms\\client\\grpc_client.csproj",
+  "projectFilePath": "C:\\Zoo-Management\\client\\grpc_client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.21.12\\google.protobuf.3.21.12.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\grpc.core.api\\2.50.0\\grpc.core.api.2.50.0.nupkg.sha512",
